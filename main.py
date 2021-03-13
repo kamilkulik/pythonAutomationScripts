@@ -4,7 +4,8 @@ change_extension = ChangeExtension()
 
 
 def main():
-    change_extension.change_name_extension()
+    dir_path = input('Path to dir with files: ')
+    change_extension.change_name_extension(dir_path)
 
 
 main()
