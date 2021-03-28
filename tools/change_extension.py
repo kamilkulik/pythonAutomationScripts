@@ -17,6 +17,9 @@ class ChangeExtension:
 
         os.chdir(dir_path)
 
+        # TO_DO:
+        # handle files with the same names
+
         for f in os.listdir():
             file_name, file_extension = os.path.splitext(f)
             if file_extension == original_extension:
